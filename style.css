@@ -1,0 +1,105 @@
+body {
+  background-color: #DDE;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#main {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main span {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  cursor: pointer;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: white;
+  outline: none;
+}
+
+#github button {
+  background-color: #444444;
+}
+
+#github button:hover {
+  background-color: #757474;
+}
+
+#google button {
+  background-color: #DB4C3F;
+}
+
+#google button:hover {
+  background-color: rgb(255, 112, 105);
+}
+
+#instagram button {
+  background-color: #417299;
+}
+
+#instagram button:hover {
+  background-color: #65a0ca;
+}
+
+#facebook button {
+  background-color: #3D5A96;
+}
+
+#facebook button:hover {
+  background-color: rgb(110, 142, 207);
+}
+
+#linkedin button {
+  background-color: #117CB4;
+}
+
+#linkedin button:hover {
+  background-color: rgb(100, 176, 214);
+}
+
+#reddit button {
+  background-color: #EFF7FF;
+  color: #000;
+}
+
+#reddit button:hover {
+  background-color: rgb(211, 218, 224);
+}
+
+#tumblr button {
+  background-color: #2D4761;
+}
+
+#tumblr button:hover {
+  background-color: rgb(88, 115, 143);
+}
